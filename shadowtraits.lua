@@ -9,10 +9,7 @@ end
 
 function activateVisualEffects()
   local lightLevel = getLight()
-  if lightLevel >= 15 then
-    animator.setParticleEmitterActive("constantdark", true)  
-  end
-
+	animator.setParticleEmitterActive("constantdark",getLight >= 15)
 end
 
 function getLight()
