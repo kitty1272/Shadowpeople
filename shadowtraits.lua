@@ -10,7 +10,6 @@ end
 function activateVisualEffects()
   local lightLevel = getLight()
   if lightLevel >= 15 then
-    animator.setParticleEmitterOffsetRegion("constantdark", mcontroller.boundBox())
     animator.setParticleEmitterActive("constantdark", true)  
   end
 
