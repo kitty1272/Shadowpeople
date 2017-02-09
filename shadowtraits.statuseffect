@@ -1,0 +1,9 @@
+{
+	"name" : "shadowtraits",
+	"effectConfig" : {"healTime" : 60},
+    "defaultDuration" : 2,
+	"scripts" : [ "shadowtraits.lua" ],
+	"animationConfig" : "constantdark.animation",
+	"label" : "Shadow Traits",
+	"icon" : "/interface/statuses/test.png"
+}
