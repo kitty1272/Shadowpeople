@@ -1,7 +1,7 @@
 {
   "particleEmitters" : {
     "shadowtraits" : {
-      "enabled" : true,
+      "enabled" : ,
       "emissionRate" : 200.0,
       "particles" : [
         {
